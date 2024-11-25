@@ -1,0 +1,52 @@
+/* Colores personalizados */
+:root {
+    --morado: #6a0dad;
+    --amarillo: #ffd700;
+}
+
+/* Fondo y fuente global */
+body {
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+/* Encabezado */
+header {
+    background-color: var(--morado);
+    color: var(--amarillo);
+}
+
+/* Botones personalizados */
+.btn-morado {
+    background-color: var(--morado);
+    color: #fff;
+    border: none;
+}
+
+.btn-morado:hover {
+    background-color: #5c0ca6;
+    color: #fff;
+}
+
+.btn-outline-morado {
+    color: var(--morado);
+    border: 2px solid var(--morado);
+}
+
+.btn-outline-morado:hover {
+    background-color: var(--morado);
+    color: #fff;
+}
+
+/* Fondos de secciones */
+.bg-amarillo {
+    background-color: var(--amarillo);
+    color: var(--morado);
+}
+
+.text-morado {
+    color: var(--morado);
+}
